@@ -21,10 +21,9 @@ function App() {
         <Routes>
 
           <Route path='/' element={<NavBar/>}>
-            <Route path='/' element={<Home/>}></Route>
-            {/* <Route path='/' element={<Home/>}/>
-            <Route path='/listMaterial' element={<ListMaterial/>}/>
-            <Route path='/createMaterial' element={<CreateMaterial/>}/>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/ListRoupas' element={<ListRoupas/>}/>
+            {/* <Route path='/createMaterial' element={<CreateMaterial/>}/>
             <Route path='/detailMaterial/:cod_material' element={<DetailMaterial/>}/>
             <Route path='/deleteMaterial/:cod_material' element={<DeleteMaterial/>}/>
             <Route path='/updateMaterial/:cod_material' element={<UpdateMaterial/>}/> */}

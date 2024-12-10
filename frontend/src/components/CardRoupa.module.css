@@ -1,0 +1,26 @@
+.card_material{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #f7d5a9;
+    border: 5px solid #d49453;
+    font-family: Helvetica;
+}
+
+.titulo{
+    font-size: 12px;
+}
+
+.autor{
+    font-size: 10px;
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 5px;
+}
